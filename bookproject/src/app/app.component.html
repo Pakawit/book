@@ -1,4 +1,29 @@
-<app-topbar></app-topbar>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-xxl">
+    <a class="navbar-brand" routerLinkActive="active" routerLink="/home" >Book Shop</a>
 
+  <div id="navbarNav" class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/home" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/books-list">Show Books</a>
+      </li>
+      <li class="">
+        <a class="nav-link" routerLinkActive="active" routerLink="/add-book">Add Books</a>
+      </li>
+    </ul>
+  </div>
+  <ul class="navbar-nav ml-end">
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="/login">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="/register">Register</a>
+    </li>
+  </ul>
+  </div>
+</nav>
 
-
+<router-outlet></router-outlet>

@@ -1,0 +1,17 @@
+<div>
+<h1 style="text-align: center;">Name: {{book.title}}</h1><br>
+<img style="display: block; margin: auto auto; width: 300px; height: 400px;" src="{{book.thumbnailUrl}}">
+
+<div>
+  <b style=" text-align: center; display: block;">Authors: {{book.authors}}</b><br>
+  <div style="background-color: antiquewhite;">
+  <b>ShortDescription: {{book.shortDescription}}</b><br>
+  <br>
+  <b>LongDescription: {{book.longDescription}}</b><br>
+</div>
+  <b>PublishedDate: {{book.publishedDate.$date}}</b>
+  <b>Status: {{book.status}}</b>
+  <b>Categories: {{book.categories}}</b>
+</div>
+</div>
+

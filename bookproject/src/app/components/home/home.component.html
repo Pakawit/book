@@ -1,0 +1,19 @@
+<ngb-carousel *ngIf="images" style="background-color: rgb(124, 124, 124);">
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[0]" alt="Random first slide" style="margin-left: 20%;"/>
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[1]" alt="Random second slide" style="margin-left:20%;"/>
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[2]" alt="Random third slide" style="margin-left:20%;;" />
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<h1 style="text-align: center;  font-family: 'Courier New', Courier, monospace; margin-top: 2%; font-size: 100px;">WELCOME</h1>
